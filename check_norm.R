@@ -52,6 +52,6 @@ check_norm <- function(variable, type = "hist",  binwidth = NULL){
 }
 
 # Examples. 
-check_norm(mtcars$disp, type = "hist", binwidth = 50)
-check_norm(mtcars$disp)
-check_norm(mtcars$disp, type = "density")
+#check_norm(mtcars$disp, type = "hist", binwidth = 50)
+#check_norm(mtcars$disp)
+#check_norm(mtcars$disp, type = "density")
