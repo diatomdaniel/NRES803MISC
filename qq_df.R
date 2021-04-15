@@ -12,7 +12,7 @@
 qq_df <- function(x, trans = NULL, ...){
   
   # Drop non-numerical data from dataframe. 
-  numerics <- apply(x, 2, is.numeric)
+  numerics <- sapply(x, is.numeric)
   x <- x[,numerics]
   
   # Apply transformation if trans is not NULL. 
